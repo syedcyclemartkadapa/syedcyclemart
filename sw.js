@@ -1,4 +1,4 @@
-const CACHE_NAME = 'syed-cycle-mart-v15';
+const CACHE_NAME = 'sw-v43';
 
 const ASSETS = [
   './',
