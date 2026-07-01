@@ -36,12 +36,22 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   e.respondWith(
     caches.match(e.request).then((cachedResponse) => {
-      if (cachedResponse) {
-        return cachedResponse;
-      }
-      return fetch(e.request).catch(() => {
-        // Fallback or ignore for dynamic requests (like forms)
+      const fetchPromise = fetch(e.request).then((networkResponse) => {
+        // Only cache valid responses
+        if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
+          const responseToCache = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(e.request, responseToCache);
+          });
+        }
+        return networkResponse;
+      }).catch(() => {
+        // Network failed, return cached response if we have one
       });
+
+      // Return cached response immediately if it exists, while fetching in the background.
+      // If not in cache, wait for the network fetch.
+      return cachedResponse || fetchPromise;
     })
   );
 });
