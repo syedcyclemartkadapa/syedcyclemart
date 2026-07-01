@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# AI Crawlers - Explicitly allow to ensure Gemini/ChatGPT/Perplexity can read the site for GEO
+User-agent: Google-Extended
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: OmgiliBot
+Allow: /
+User-agent: FacebookBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://syedcyclemart.com/sitemap.xml
