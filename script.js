@@ -3,9 +3,9 @@
 document.addEventListener('DOMContentLoaded', () => {
   /* --- Product Quick View Modal --- */
   const productData = {
-    "Multi-Speed Geared MTBs": {
-      desc: "Engineered for fitness enthusiasts and rugged trails. Outfitted with high-precision Shimano derailleurs, multi-speed drivetrains, premium lightweight alloy rims, and responsive mechanical dual disc brakes with front lockout suspension setups.",
-      price: "Estimated Price: ₹14,500 – ₹24,000 (Wholesale Direct Channels Available)"
+    "Wholesale Cycles & Spare Parts": {
+      desc: "Bulk wholesale supply of premium bicycles and genuine spare parts. High-quality Shimano components, durable chain links, heavy-duty inner tubes, alloy wheel rims, and original cycle accessories for retailers and individuals.",
+      price: "Wholesale & Bulk Rates Available Upon Direct Request"
     },
     "Children's BMX & Balance Bikes": {
       desc: "Vibrant, impact-resistant kids cycle range including high-tensile steel frames, integrated non-slip training wheels, adjustable growth saddles, full-coverage chain guards for optimal child safety, and high-visibility spoke safety reflectors.",
