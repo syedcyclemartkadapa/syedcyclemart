@@ -8,11 +8,24 @@
   <meta name="description" content="Syed Cycle Mart - Kadapa's trusted multi-brand bicycle showroom since 2012. Premium MTBs, geared cycles, kids BMX, and expert repair services on Trunk Road, Ganagapeta." />
   <meta name="keywords" content="bicycle shop Kadapa, MTB bikes, geared cycles, kids BMX, bicycle repair, Trunk Road Ganagapeta, Shimano derailleurs" />
   <meta name="author" content="Syed Cycle Mart" />
-  <meta property="og:title" content="Syed Cycle Mart - Premium Bicycle Showroom" />
+  
+  <!-- Open Graph / Facebook / WhatsApp Preview -->
+  <meta property="og:title" content="Syed Cycle Mart - Premium Bicycle Showroom Kadapa" />
   <meta property="og:description" content="Kadapa's trusted multi-brand bicycle showroom since 2012. Premium MTBs, geared cycles, and expert repair services." />
-  <meta property="og:type" content="business.business" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://syedcyclemart.com" />
+  <meta property="og:image" content="https://syedcyclemart.com/images/product_geared_mtb.png" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Syed Cycle Mart - Premium Bicycle Showroom Kadapa" />
+  <meta name="twitter:description" content="Kadapa's trusted multi-brand bicycle showroom since 2012. Premium MTBs, geared cycles, and expert repair services." />
+  <meta name="twitter:image" content="https://syedcyclemart.com/images/product_geared_mtb.png" />
+  
   <meta name="theme-color" content="#1e3a8a" />
   
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="images/product_geared_mtb.png" />
   <link rel="stylesheet" href="style.css" />
   
   <!-- JSON-LD Advanced AEO & GEO Schema Graph -->
@@ -385,5 +398,15 @@
   </div>
 
   <script src="script.js"></script>
+  <script>
+    // PWA Service Worker Registration
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(reg => console.log('Service Worker registered successfully!', reg.scope))
+          .catch(err => console.log('Service Worker registration failed:', err));
+      });
+    }
+  </script>
 </body>
 </html>
