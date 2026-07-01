@@ -2,7 +2,7 @@
   "name": "Syed Cycle Mart",
   "short_name": "SyedCycleMart",
   "description": "Kadapa's Premium Bicycle Showroom & Repair Center since 2012.",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#1e3a8a",
   "theme-color": "#1e3a8a",

@@ -195,4 +195,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // 3. Ambient Cursor Glow
+  const glow = document.getElementById('cursorGlow');
+  if (glow && window.innerWidth > 768) { // Only enable on desktop
+    document.addEventListener('mousemove', e => {
+      // Small optimization using requestAnimationFrame can be added, but direct style works fine for glow
+      glow.style.left = e.clientX + 'px';
+      glow.style.top = e.clientY + 'px';
+    });
+  }
 });
