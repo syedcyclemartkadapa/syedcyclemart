@@ -103,8 +103,8 @@
   }
   </script>
   
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
-  <link rel="alternate" type="text/plain" title="LLMs.txt" href="/llms.txt" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="./sitemap.xml" />
+  <link rel="alternate" type="text/plain" title="LLMs.txt" href="./llms.txt" />
 </head>
 <body>
   <!-- Ambient Cursor Glow -->
@@ -406,7 +406,7 @@
     // PWA Service Worker Registration
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('./sw.js')
           .then(reg => console.log('Service Worker registered successfully!', reg.scope))
           .catch(err => console.log('Service Worker registration failed:', err));
       });

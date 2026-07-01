@@ -1,10 +1,11 @@
-const CACHE_NAME = 'syed-cycle-mart-v2';
+const CACHE_NAME = 'syed-cycle-mart-v3';
 const ASSETS = [
   './',
   './index.html',
   './style.css',
   './script.js',
   './manifest.json',
+  './images/icon-set-flat.png',
   './images/product-geared-mtb.png',
   './images/product-kids-bmx.png',
   './images/product-ladies-classic.png',
