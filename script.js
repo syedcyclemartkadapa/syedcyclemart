@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   /* --- Testimonials Carousel --- */
-  const track = document.getElementById('carousel-track');
+  const track = document.getElementById('carousel-slides');
   const slides = document.querySelectorAll('.carousel-slide');
   const prevBtn = document.getElementById('carousel-prev');
   const nextBtn = document.getElementById('carousel-next');

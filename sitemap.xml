@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://syedcyclemart.com/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://syedcyclemart.com/images/hero-showroom-banner-1600.webp</image:loc>
+      <image:title>Syed Cycle Mart bicycle showroom in Kadapa</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://syedcyclemart.com/images/spare_parts_showcase_1782917345554.png</image:loc>
+      <image:title>Premium geared bicycle at Syed Cycle Mart</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://syedcyclemart.com/images/product-kids-bmx.png</image:loc>
+      <image:title>Kids BMX bicycles available in Kadapa</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://syedcyclemart.com/images/product-ladies-classic.png</image:loc>
+      <image:title>Ladies heritage cycle collection in Kadapa</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://syedcyclemart.com/llms.txt</loc>

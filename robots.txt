@@ -1,20 +1,31 @@
 User-agent: *
 Allow: /
 
-# AI Crawlers - Explicitly allow to ensure Gemini/ChatGPT/Perplexity can read the site for GEO
+# Public AI/search crawlers. The wildcard rule above already allows crawling;
+# these explicit groups make the site's AI-readiness policy easy to audit.
 User-agent: Google-Extended
 Allow: /
 User-agent: GPTBot
 Allow: /
 User-agent: ChatGPT-User
 Allow: /
-User-agent: OmgiliBot
-Allow: /
-User-agent: FacebookBot
+User-agent: ClaudeBot
 Allow: /
 User-agent: anthropic-ai
 Allow: /
 User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: FacebookBot
+Allow: /
+User-agent: OmgiliBot
 Allow: /
 
 Sitemap: https://syedcyclemart.com/sitemap.xml

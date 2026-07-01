@@ -1,4 +1,4 @@
-const CACHE_NAME = 'syed-cycle-mart-v4';
+const CACHE_NAME = 'syed-cycle-mart-v15';
 
 const ASSETS = [
   './',
@@ -6,17 +6,24 @@ const ASSETS = [
   './style.css',
   './script.js',
   './manifest.json',
+  './images/TI Cycles of India.svg',
+  './images/Hercules.png',
+  './images/hero-logo.jpg',
+  './images/avon-new-logo.jpg',
   './images/hero-showroom-banner-1600.webp',
   './images/hero-showroom-banner-960.webp',
-  './images/icon-set-flat-720.webp',
-  './images/product-geared-mtb-900.webp',
+  './images/hero-showroom-banner.png',
+  './images/hero_banner_wholesale_1782917333222.png',
   './images/product-kids-bmx-900.webp',
-  './images/product-ladies-classic-900.webp',
-  './images/icon-set-flat.png',
-  './images/product-geared-mtb.png',
   './images/product-kids-bmx.png',
+  './images/product-ladies-classic-900.webp',
   './images/product-ladies-classic.png',
-  './images/hero-showroom-banner.png'
+  './images/product_kids_bmx_1782905799723.png',
+  './images/product_ladies_classic_1782905809912.png',
+  './images/showroom_hero_creative_1782920797194.png',
+  './images/spare_parts_showcase_1782917345554.png',
+  './images/syed_cycle_mart_logo_1782916268892.png',
+  './images/contact_form_bg_1782901744445.png'
 ];
 
 self.addEventListener('install', (event) => {
